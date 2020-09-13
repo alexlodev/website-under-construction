@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,101 +8,195 @@
     <title>Viajes Costa Rica Verde</title>
     <script src="https://kit.fontawesome.com/7dda71d877.js" crossorigin="anonymous"></script>
 </head>
-<body>
-<style>
-    @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-    * {
-        padding: 0px;
-        margin: 0px;
-        font-family: 'Poppins';
-    }
-    header {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .backgroud {
-        background: gray;
-        background-image: url(header.jpg) ;
-        width: 50%;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        background-position: center;
-        background-size: cover;
-    }
-    .info {
-        width: 50%;
-        height: 100vh;
-        display: flex; 
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
-    h2 {
-        font-size: 3vw;
-        color: #000;
-    }
-    img {
-        max-width: 20%;
-    }
-    .info-contein {
-        width: 300px;
-        
-    }
-    .footer {
-        position: absolute;
-        bottom: 0;
-    }
-    .footer a {
-        font-size: 25px;
-        margin: 20px;
-        transition: 0.7s ease-in-out;
-        cursor: pointer;
-        color: rgb(47, 87, 47);
-        text-decoration: none;
-    }
-    .footer a:hover {
-        transform: scale(1.4);
-    }
-    @media only screen and (max-width: 600px) {
-        header {
-            display: block;
-        }
-        .info {
-            width: 100%;
-            height: 50vh;
-        }
-        .backgroud {
-            width: 100%;
-            height: 50vh;
-        }
-        .footer a {
-            color: #fff;
-        }
-        h2 {
-            font-size: 9vw;
-        }
-        .info-contein {
-            text-align: center;
-        }
-    }
 
-</style>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+        * {
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Poppins';
+        }
+
+        header {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .backgroud {
+            background: gray;
+            background-image: url(rana.jpg);
+            width: 50%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .info {
+            width: 50%;
+            height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h2 {
+            font-size: 3vw;
+            color: #000;
+        }
+
+        img {
+            max-width: 20%;
+        }
+
+        .info-contein {
+            width: 300px;
+
+        }
+
+
+        .logos img {
+            max-width: 150px;
+            margin: 20px 20px;
+        }
+
+        .logos {
+            text-align: center;
+
+        }
+
+        footer {
+            background-color: #000;
+
+        }
+        .footer {
+            display: flex;
+            flex-wrap: wrap;    
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+            max-width: 1200px;
+            width: 80%;
+            margin: 0 auto;
+        }
+        .footer img {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            max-width: 100px;
+            text-align: left;
+
+        }
+        .folow-us a {
+            font-size: 25px;
+            margin: 20px;
+            text-align: left;
+            transition: 0.7s ease-in-out;
+            cursor: pointer;
+            color: #fff;
+            text-decoration: none;
+        }
+        .folow-us a:hover {
+            transform: scale(1.4);
+        }
+        .folow-us a:first-child {
+            margin-left: 0px !important;
+        }
+
+        .contact {
+            width: 60%;
+        }
+
+        @media only screen and (max-width: 600px) {
+            header {
+                display: block;
+            }
+
+            .info {
+                width: 100%;
+                height: 50vh;
+            }
+
+            .backgroud {
+                width: 100%;
+                height: 50vh;
+            }
+            .contact {
+                 width: auto;
+            }
+
+
+            h2 {
+                font-size: 9vw;
+            }
+
+            .footer {
+                justify-content: center;
+                text-align: center;
+            }
+
+            .footer img {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 0px;
+            max-width: 100px;
+            text-align: left;
+
+        }
+
+            .info-contein {
+                text-align: center;
+            }
+        }
+    </style>
     <header>
         <div class="info">
             <div class="info-contein">
                 <h2>Sitio web en construcción</h2>
                 <p>Pronto estará disponible</p>
-
             </div>
-            <div class="footer"><a class="fab fa-facebook-square" href="https://www.facebook.com/Viajes-Costa-Rica-Verde-121934344483842/?epa=SEARCH_BOX"></a> <a class="fab fa-instagram" href="https://www.instagram.com/viajescostaricaverde/"></a><a class="fas fa-paper-plane" href="mailto:info@viajescostaricaverde.com"></a></div>
 
         </div>
         <div class="backgroud">
-            <img src="./logo-1.svg" alt="" >
-
-
+            <img src="./logo-1.svg" alt="">
         </div>
     </header>
+    <div class="logos">
+        <img src="codigo.png" alt="">
+        <img src="safe.jpg" alt="">
+    </div>
+    <footer>
+        <divc class="footer">
+        
+        <img src="./logo-1.svg" alt="">
+            <div class="contact">
+                <b> Contacto: </b> 
+                <p>
+                    Teléfono: +506 2101-1117 <br>
+                    Emergencias +506 8302-3101 <br>
+                    Correo Electrónico: info@viajescostaricaverde.com  <br>
+                    Alajuela, Costa Rica
+                </p>
+            </div>
+            <br> <br>
+        <div class="folow-us">
+            <b> Siguenos en: </b> <br>
+            <a class="fab fa-facebook-square" href="https://www.facebook.com/Viajes-Costa-Rica-Verde-121934344483842/?epa=SEARCH_BOX"></a> 
+            
+            <a
+                class="fab fa-instagram" href="https://www.instagram.com/viajescostaricaverde/"></a><a
+                class="fas fa-paper-plane" href="mailto:info@viajescostaricaverde.com"></a>
+                <a class="fab fa-youtube" href="https://www.youtube.com/channel/UCcYZSwHBOMOEWVy5jQ9hNPA"></a>             <a class="fab fa-twitter" href=""></a> 
+                <div>
+                    <p id="copy"> 2020 &copy Viajes Costa Rica Verde</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
